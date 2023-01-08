@@ -7,7 +7,7 @@ namespace Chapter04.Exercise_4.SayHello.Controllers;
 [Route("")]
 public class HelloController : ControllerBase
 {
-
+    
     private readonly ILogger<HelloController> _logger;
     private readonly BigBrotherService _bigBrotherService;
     private readonly FormatterService _formatterService;

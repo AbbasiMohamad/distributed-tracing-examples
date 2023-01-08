@@ -9,7 +9,7 @@ public class BigBrotherService
     private readonly IHttpClientFactory _httpClient;
 
     public BigBrotherService(IHttpClientFactory httpClient)
-    {
+	{
         _httpClient = httpClient;
     }
 
