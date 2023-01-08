@@ -9,7 +9,7 @@ All codes will be in the C#/.NET language.
 
 ## Books and articles so far
 
-1.  Mastering Distributed Tracing: Analyzing performance in microservices and complex systems 1st Edition. By Yuri Shkuro ([link](https://www.packtpub.com/product/mastering-distributed-tracing/9781788628464))
+1.  Mastering Distributed Tracing: Analyzing performance in microservices and complex systems 1st Edition. By Yuri Shkuro ([book's link](https://www.packtpub.com/product/mastering-distributed-tracing/9781788628464)) ([examples's link] (https://github.com/AbbasiMohamad/distributed-tracing-examples/tree/master/mastering-distributed-tracing-by-yuri-shkuro))
 
 ---
 
