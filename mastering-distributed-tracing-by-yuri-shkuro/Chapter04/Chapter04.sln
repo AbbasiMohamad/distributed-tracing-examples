@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise-1", "Exercise-1", "{655017BD-41D2-4A0E-A9A5-6E105098E7D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise_1", "Exercise-1\Chapter04.Exercise_1\Chapter04.Exercise_1.csproj", "{86E053BF-341C-4F62-9468-727D033E2F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise_1", "Exercise-1\Chapter04.Exercise_1\Chapter04.Exercise_1.csproj", "{86E053BF-341C-4F62-9468-727D033E2F2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise-2", "Exercise-2", "{F1C18862-826D-4323-AE7C-7D9FDA0CC445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise_2", "Exercise-2\Chapter04.Exercise_2\Chapter04.Exercise_2.csproj", "{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{86E053BF-341C-4F62-9468-727D033E2F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86E053BF-341C-4F62-9468-727D033E2F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86E053BF-341C-4F62-9468-727D033E2F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86E053BF-341C-4F62-9468-727D033E2F2F} = {655017BD-41D2-4A0E-A9A5-6E105098E7D5}
+		{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B} = {F1C18862-826D-4323-AE7C-7D9FDA0CC445}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB86D69E-47B7-4236-81AF-69FC0399491F}
