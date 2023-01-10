@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	<PackageReference Include="OpenTracing.Contrib.NetCore" Version="0.9.0" />
+	<PackageReference Include="Jaeger" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
