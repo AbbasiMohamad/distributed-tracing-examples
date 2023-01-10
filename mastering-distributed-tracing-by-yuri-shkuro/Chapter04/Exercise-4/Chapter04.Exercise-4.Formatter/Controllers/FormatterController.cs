@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OpenTracing;
 
 namespace Chapter04.Exercise_4.Formatter.Controllers;
 
@@ -8,16 +9,20 @@ public class FormatterController : ControllerBase
 {
 
     private readonly ILogger<FormatterController> _logger;
+    private readonly ITracer _tracer;
 
-    public FormatterController(ILogger<FormatterController> logger)
+    public FormatterController(ILogger<FormatterController> logger, ITracer tracer)
     {
         _logger = logger;
+        _tracer = tracer;
     }
 
     [HttpGet("formatGreeting")]
     public ActionResult<string> Get(string name, string? title, string? description)
     {
-        return Ok(FormatGreeting(title, name, description));
+        using var scope = _tracer.BuildSpan("format-greeting").StartActive(true);
+        var response = FormatGreeting(title, name, description);
+        return Ok(response);
     }
 
 
