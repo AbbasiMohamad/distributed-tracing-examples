@@ -9,19 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise_1", "Exe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise-2", "Exercise-2", "{F1C18862-826D-4323-AE7C-7D9FDA0CC445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise_2", "Exercise-2\Chapter04.Exercise_2\Chapter04.Exercise_2.csproj", "{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise_2", "Exercise-2\Chapter04.Exercise_2\Chapter04.Exercise_2.csproj", "{628ACBE2-6B83-4D22-B8F3-204A02BDAA6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise-3", "Exercise-3", "{B7686883-D3D0-4607-B322-BA135657DF4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise_3", "Exercise-3\Chapter04.Exercise_3\Chapter04.Exercise_3.csproj", "{3E8AAE5D-9DF2-412F-8A3F-440F4E26F223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise_3", "Exercise-3\Chapter04.Exercise_3\Chapter04.Exercise_3.csproj", "{3E8AAE5D-9DF2-412F-8A3F-440F4E26F223}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise-4", "Exercise-4", "{A2A00BB9-CA26-445C-ACCB-0659C474E099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise-4.BigBrother", "Exercise-4\Chapter04.Exercise-4.BigBrother\Chapter04.Exercise-4.BigBrother.csproj", "{F52BD343-6636-4B18-81A3-0814E575DC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise-4.BigBrother", "Exercise-4\Chapter04.Exercise-4.BigBrother\Chapter04.Exercise-4.BigBrother.csproj", "{F52BD343-6636-4B18-81A3-0814E575DC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise-4.Formatter", "Exercise-4\Chapter04.Exercise-4.Formatter\Chapter04.Exercise-4.Formatter.csproj", "{C6D3C0DB-C510-4EFB-911C-4660510865BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise-4.Formatter", "Exercise-4\Chapter04.Exercise-4.Formatter\Chapter04.Exercise-4.Formatter.csproj", "{C6D3C0DB-C510-4EFB-911C-4660510865BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise-4.SayHello", "Exercise-4\Chapter04.Exercise-4.SayHello\Chapter04.Exercise-4.SayHello.csproj", "{0D18A403-606E-4E2D-901F-BE975CF59DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter04.Exercise-4.SayHello", "Exercise-4\Chapter04.Exercise-4.SayHello\Chapter04.Exercise-4.SayHello.csproj", "{0D18A403-606E-4E2D-901F-BE975CF59DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04.Exercise-4.CommonLib", "Exercise-4\Chapter04.Exercise-4.CommonLib\Chapter04.Exercise-4.CommonLib.csproj", "{E0245325-A102-45DF-8006-67D7441E37FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{0D18A403-606E-4E2D-901F-BE975CF59DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D18A403-606E-4E2D-901F-BE975CF59DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D18A403-606E-4E2D-901F-BE975CF59DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0245325-A102-45DF-8006-67D7441E37FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0245325-A102-45DF-8006-67D7441E37FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0245325-A102-45DF-8006-67D7441E37FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0245325-A102-45DF-8006-67D7441E37FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{F52BD343-6636-4B18-81A3-0814E575DC55} = {A2A00BB9-CA26-445C-ACCB-0659C474E099}
 		{C6D3C0DB-C510-4EFB-911C-4660510865BD} = {A2A00BB9-CA26-445C-ACCB-0659C474E099}
 		{0D18A403-606E-4E2D-901F-BE975CF59DA1} = {A2A00BB9-CA26-445C-ACCB-0659C474E099}
+		{E0245325-A102-45DF-8006-67D7441E37FC} = {A2A00BB9-CA26-445C-ACCB-0659C474E099}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB86D69E-47B7-4236-81AF-69FC0399491F}
